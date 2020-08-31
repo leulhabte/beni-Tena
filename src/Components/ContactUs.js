@@ -52,7 +52,7 @@ const ContactUs = ()=>{
                                             Name Mehiretab Teshome
                                         </Typography>
                                         <Typography variant='body1' className={classes.homeBodyText}>
-                                            E-mail: mehiretabteshome@gmail.com
+                                            E-mail: mehiretab333@gmail.com
                                         </Typography>
                                     </ListItemText>
                                 </ListItem>

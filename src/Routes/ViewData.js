@@ -87,7 +87,7 @@ const View = (props)=>{
                                     <TableCell
                                         align="left"
                                     >
-                                        <IconButton onClick={()=>{const info = row; props.history.push({pathname: '/more',state: {data: info}})}}>
+                                        <IconButton onClick={()=>{const info = row; console.log(info); props.history.push({pathname: '/more',state: {data: info}})}}>
                                             <More className={classes.actionButton}/>
                                         </IconButton>
                                     </TableCell>

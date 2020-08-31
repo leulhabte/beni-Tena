@@ -8,7 +8,7 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 const MoreInfo = (props)=>{
     const [information, setInfo] = React.useState({});
-    const {fullName, age, gender, wereda, kebele, phoneNumber, mostCommonSymptoms, lessCommonSymptoms, seriousSymptoms, additionalInfo} = information;
+    const {fullName, age, gender, wereda, kebele, phoneNumber, zone, mostCommonSymptoms, lessCommonSymptoms, seriousSymptoms, additionalInfo} = information;
     const classes = useStyles();
     
     React.useEffect(()=>{
@@ -41,6 +41,8 @@ const MoreInfo = (props)=>{
                                                 <Box my={1}/>
                                                 <Typography>Phone Num</Typography>
                                                 <Box my={1}/>
+                                                <Typography>Zone</Typography>
+                                                <Box my={1}/>
                                                 <Typography>Wereda</Typography>
                                                 <Box my={1}/>
                                                 <Typography>Kebele</Typography>
@@ -57,6 +59,8 @@ const MoreInfo = (props)=>{
                                                     <Typography>{gender}</Typography>
                                                     <Box my={1}/>
                                                     <Typography>{phoneNumber}</Typography>
+                                                    <Box my={1}/>
+                                                    <Typography>{zone}</Typography>
                                                     <Box my={1}/>
                                                     <Typography>{wereda}</Typography>
                                                     <Box my={1}/>
